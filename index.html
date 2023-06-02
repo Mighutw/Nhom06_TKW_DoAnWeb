@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOLIDAY TRAVEL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- link font text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,600&family=Rubik+Puddles&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style_index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/index_navbar.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+    </style>
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <a href="./index.html" class="logo_main"><i class="fa-solid fa-hippo"></i>&nbsp Holiday</a>
+
+        <nav class="navbar_main">
+            <a href="./index.html">Trang chủ</a>
+            <a href="html_single/FormDatTour.html">Đặt tour</a>
+            <a href="#about">Địa điểm</a>
+            <a href="#danhgia">Đánh giá</a>
+            <a href="#phanhoi">Phản hồi</a>
+            <a href="html_single/LienHe.html">Liên hệ</a>
+
+        </nav>
+
+        <div class="icons_main">
+            <i class="fas fa-bars" id="menu_bars" data-bs-toggle="offcanvas" data-bs-target="#demo"></i>
+
+            <a href="html_single/DangNhap.html" class="fa-solid fa-user login_pc"></a>
+        </div>
+
+
+        <!-- HOME SECTION STARTS -->
+        <div class="offcanvas offcanvas-end" id="demo">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <nav class="navbar_main_bars">
+                <a href="./index.html"><i class="fas fa-house"></i>&nbsp;&nbsp; Home</a><br>
+                <a href="./html_single/product.html"><i
+                        class="fa-brands fa-product-hunt"></i>&nbsp;&nbsp;Product</a><br>
+                <a href="#about"><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp;About</a><br>
+                <a href="#contact"><i class="fa-sharp fa-solid fa-location-dot"></i>
+                    &nbsp;&nbsp;Contact</a><br>
+                <a href="./html_single/Login_Web.html"><i class="fa-solid fa-user"></i>
+                    &nbsp;&nbsp;Login</a><br>
+
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!-- content -->
+    <main>
+        <section class="main_header">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-7 col-sm-12">
+                        <!-- Carousel -->
+                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            </div>
+
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./image/Banner/Trắng Xanh mòng két Video làm Trọng tâm Du lịch Hình thu nhỏ Youtube (1).png"
+                                        alt="Los Angeles" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./image/Banner/Trắng Xanh mòng két Video làm Trọng tâm Du lịch Hình thu nhỏ Youtube.png"
+                                        alt="Chicago" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./image/Banner/Trắng Đen Video làm Trọng tâm Du lịch Hình thu nhỏ Youtube.png"
+                                        alt="New York" class="d-block w-100">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#demo"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-5 col-sm-12">
+                        <div class="text_main_tilte">
+                            <h3>
+                                Mang đến cho bạn<br>
+                                Một trải nghiệm du lịch Việt Nam mới!
+                            </h3>
+                            <button class="btn_title"> Khám Phá ->
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <img class="img_main" width="80%" height="auto"
+                            src="./image/TrangChu/Thiết kế chưa có tên (1).png" alt="">
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-sm-4 col-4">
+                        <img class="img_main" width="80%" height="auto" src="./image/TrangChu/Thiết kế chưa có tên.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-sm-4 col-4">
+                        <img class="img_main" width="80%" height="auto" src="./image/TrangChu/Thiết kế chưa có tên.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="text_main_tour">ĐỊA ĐIỂM NỔI BẬT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="Tour">
+                            <a href="html_single/ThanhPhoHCM.html"><img src="image/TrangChu/tphcm.webp"></a>
+                            <a href="html_single/ThanhPhoHCM.html" style="text-decoration: none;"><h4 style="color: blueviolet; font-size: 20px; margin-top: 10px;">Thành phố Hồ Chí Minh</h4></a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>  
+                            </div>
+                            <p style="color: darkgreen; margin-left: 20px;" ><font size = "3px"> 4.590.000đ  </font><span style="color: black;"> <strike style="text-decoration: line-through;">8.990.000đ</strike> </span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="Tour">
+                            <a href="html_single/HaNoi.html"><img src="image/TrangChu/hanoi.jpg"></a>
+                            <a href="html_single/HaNoi.html" style="text-decoration: none;"><h4 style="color: blueviolet; font-size: 20px; margin-top: 10px;">Thủ đô Hà Nội</h4></a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                            </div>
+                            <p style="color:darkgreen; margin-left: 20px;" ><font size = "3px"> 7.590.000đ  </font><span style="color: black;"> <strike style="text-decoration: line-through;"> 10.990.000đ </strike> </span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="Tour">
+                            <a href="html_single/DaNang.html"><img src="image/TrangChu/danang.jpg"></a>
+                            <a href="html_single/DaNang.html" style="text-decoration: none;"><h4 style="color: blueviolet; font-size: 20px; margin-top: 10px;">Đà Nẵng</h4></a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                            </div>
+                            <p style="color:darkgreen; margin-left: 20px;" ><font size = "3px"> 4.590.000đ  </font><span style="color: black;"> <strike style="text-decoration: line-through;"> 8.990.000đ </strike> </span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="Tour">
+                            <a href="html_single/VungTau.html"><img src="image/TrangChu/vungtau.jpg"></a>
+                            <a href="html_single/VungTau.html" style="text-decoration: none;"><h4 style="color: blueviolet; font-size: 20px; margin-top: 10px;">Vũng Tàu</h4></a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                            </div>
+                            <p style="color:darkgreen; margin-left: 20px;" ><font size = "3px"> 3.590.000đ  </font><span style="color: black;"> <strike style="text-decoration: line-through;"> 7.990.000đ </strike> </span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="Tour">
+                            <a href="html_single/BacNinh.html"><img src="image/TrangChu/bacninh.jpg"></a>
+                            <a href="html_single/BacNinh.html" style="text-decoration: none;"><h4 style="color: blueviolet; font-size: 20px; margin-top: 10px;">Bắc Ninh</h4></a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                            </div>
+                            <p style="color:darkgreen; margin-left: 20px;" ><font size = "3px"> 6.590.000đ  </font><span style="color: black;"> <strike style="text-decoration: line-through;"> 13.990.000đ </strike> </span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="Tour">
+                            <a href="html_single/BinhPhuoc.html"><img src="image/TrangChu/Binhphuoc.jpg"></a>
+                            <a href="html_single/BinhPhuoc.html" style="text-decoration: none;"><h4 style="color: blueviolet; font-size: 20px; margin-top: 10px;">Bình Phước</h4></a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                            </div>
+                            <p style="color:darkgreen; margin-left: 20px;" ><font size = "3px"> 3.590.000đ  </font><span style="color: black;"> <strike style="text-decoration: line-through;"> 7.990.000đ </strike> </span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="Tour">
+                            <a href="html_single/DaLat.html"><img src="image/TrangChu/dalat.jpg"></a>
+                            <a href="html_single/DaLat.html" style="text-decoration: none;"><h4 style="color: blueviolet; font-size: 20px; margin-top: 10px;">Đà Lạt</h4></a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                            </div>
+                            <p style="color:darkgreen; margin-left: 20px;" ><font size = "3px"> 6.590.000đ  </font><span style="color: black;"> <strike style="text-decoration: line-through;"> 10.990.000đ </strike> </span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="Tour">
+                            <a href="html_single/PhuQuoc.html"><img src="image/TrangChu/phuquoc.jpg"></a>
+                            <a href="html_single/PhuQuoc.html" style="text-decoration: none;"><h4 style="color: blueviolet; font-size: 20px; margin-top: 10px;">Phú Quốc</h4></a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i>   
+                                <i class="fa fa-star"></i> 
+                            </div>
+                            <p style="color:darkgreen; margin-left: 20px;" ><font size = "3px"> 8.590.000đ  </font><span style="color: black;"> <strike style="text-decoration: line-through;"> 12.990.000đ </strike> </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color:  rgb(255, 242, 226)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3 class="text_section_ip">DU LỊCH</h3>
+                        <p style="font-family: 'Dancing Script', cursive; font-size: 2em;                        ">
+                            Với tinh thần giúp mọi người có thể tìm hiểu và
+                            tư vấn cho các sự chọn lọc về những nơi du lịch nổi tiếng của
+                            Việt Nam chúng ta. Để có thể xóa bỏ những muộn phiền do công việc
+                            học tập gây ra.
+                            <i class="fa-solid fa-heart" style="color: #ff0000;"></i>
+                        </p>
+                        <button class="cta">
+                            <span>Xem thêm</span>
+                            <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Carousel -->
+                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            </div>
+
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./image/TrangChu/banner 4.png" alt="Los Angeles" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./image/TrangChu/banner 5.jpg" alt="Chicago" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./image/TrangChu/banner 6.png" alt="New York" class="d-block w-100">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#demo"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="danhgia">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="text_main_tour">ĐÁNH GIÁ CỦA KHÁCH HÀNG
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6 ngDungDanhGia">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Các tour rất đẹp, rất đúng mô tả và giá cả hợp lí</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img src="./image/DanhGia/Vuong.jpg">
+                        <h3 style="margin-top: 10px;">Nguyễn Văn Vương</h3>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6 ngDungDanhGia">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Thiết kế giao diện đẹp, tour đẹp. Nên cho 10đ</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img src="image/DanhGia/Sang.jpg">
+                        <h3 style="margin-top: 10px;">Huỳnh Phước Sang</h3>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6 ngDungDanhGia">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Tour du lịch trên cả tuyệt vời, sẽ ủng hộ vào lần tới</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img src="image/DanhGia/Duy.jpg">
+                        <h3 style="margin-top: 10px;">Nguyễn Khánh Duy</h3>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6 ngDungDanhGia">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Thực sự là một trải nghiệm tốt</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img src="image/DanhGia/Hòa.jpg">
+                        <h3 style="margin-top: 10px;">Đoàn Văn Hòa</h3>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6 ngDungDanhGia">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Thiết kế giao diện đẹp, tour đẹp. Nên cho 10đ</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img src="image/DanhGia/Khai.jpg">
+                        <h3 style="margin-top: 10px;">Mai Ngọc Khải</h3>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6 ngDungDanhGia">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Tour rất đẹp, du lịch trên cả tuyệt vời</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img src="image/DanhGia/Tien.jpg" style="height: 45%;">
+                        <h3 style="margin-top: 10px;">Huỳnh Văn Tiên</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="phanhoi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <p class="text_main_tour">FEEDBACK</p>
+                        <div class="from_feedback">
+                            <div class="form-control">
+                                <input class="input input-alt" placeholder="name" required="" type="text">
+                                <input class="input input-alt" placeholder="Email" required="" type="text">
+                                <input class="input input-alt" placeholder="Phone" required="" type="text">
+                                <span class="input-border input-border-alt"></span>
+                            </div>
+                            <input class="text_feedback" type="text">
+                            <button data-bs-toggle="modal" data-bs-target="#myModal" class="btn_title"
+                                style="margin: 1em 35%;"> Send
+                            </button>
+
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Phản hồi thành công</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            cảm ơn bạn đã phản hồi. Chúng tôi sẽ trả lời bạn nhanh nhất.
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- content end -->
+
+    <!-- FOOTER -->
+    <footer>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="footer-col-1">
+                            <h5>DOWNLOAD OUR APP</h5>
+                            <p>Tải xuống ứng dụng cho điện thoại di động Android và iOS.</p>
+                            <div class="app-logo">
+                                <img width="80%" height="auto" src="./image/Footer/play-store.png">
+                                <img width="80%" height="auto" src="./image/Footer/app-store.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                        <a href="./index.html" class="Logo_footer"><i class="fa-solid fa-hippo"></i></i>&nbsp
+                            Holiday</a>
+                        <ul>
+                            <li style="--i:#6655ff; --j:#4a29ee;">
+                                <span class="icon_footer"><i class="fa-brands fa-facebook"
+                                        style="color: #2f80ed;"></i></span>
+                                <span class="titulo">facebook</span>
+                            </li>
+                            <li style="--i:#56ccf2; --j:#2f80ed;">
+                                <span class="icon_footer"><i class="fa-brands fa-twitter"
+                                        style="color: #2f80ed;"></i></span>
+                                <span class="titulo">twitter</span>
+                            </li>
+                            <li style="--i:#86be6b; --j:#1baf16;">
+                                <span class="icon_footer"><i class="fa-brands fa-whatsapp"
+                                        style="background: #1baf16; color: #fff; border-radius: 50%;"></i></span>
+                                <span class="titulo">whatsapp</span>
+                            </li>
+                            <li style="--i:#fcfffb; --j:#2576ef;">
+                                <span class="icon_footer"><i class="fa-brands fa-linkedin"
+                                        style="color: #fff; background: #2f80ed;border-radius: 10%;"></i></span>
+                                <span class="titulo">linkedin</span>
+                            </li>
+                            <li style="--i:#ffa9c6; --j:#f434e2;">
+                                <span class="icon_footer"><i class="fa-brands fa-instagram"
+                                        style="background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); color: #fff; border-radius: 5px;"></i></span>
+                                <span class="titulo">instagram</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <h3><strong>CHẤP NHẬN THANH TOÁN</strong></h3>
+                        <img width="80%" height="auto" src="./image/Footer/thanhtoan.jpg">
+                        <p class="text-justify" style="font-size: 14px;">Chúng tôi chấp nhận thanh toán bằng tiền mặt và
+                            cả chuyển khoản liên tất cả Ngân hàng</p>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                        <div class="text_footer_1">
+                            <p>Holiday</p>
+                            <p><i class="fa-solid fa-map-pin"></i> &nbsp; 140 Lê Trọng Tấn</p>
+                            <p><i class="fa-solid fa-phone"></i> &nbsp;0325 258 123</p>
+                            <p><i class="fa-solid fa-envelope"></i> &nbsp;holiday@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 style="text-align: center;">
+                            NHÓM 6 - TRAVEL - HÀ THỊ MINH THƯ - TRẦN HỮU PHÚC
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="script_Login.js"></script>
+    <!-- script icon online -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
